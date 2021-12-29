@@ -1,6 +1,8 @@
 <template>
-<div class="test-box"></div>
-  <IpengWatermark />
+<div class="test-box">
+  <div @click="tabTest">test</div>
+</div>
+  <IpengWatermark el="body" txt="测试"/>
 </template>
 
 <script>
@@ -10,6 +12,11 @@ export default {
   name: 'App',
   components: {
     IpengWatermark
+  },
+  methods:{
+    tabTest(){
+      console.log('tabTest')
+    }
   }
 }
 </script>
@@ -25,8 +32,9 @@ export default {
   background:#f2f2f2;
 }
 .test-box{
-  width: 500px;
-  height: 500px;
+  position: relative;
+  // width: 500px;
+  // height: 500px;
   background: #ffffff;
 }
 </style>
