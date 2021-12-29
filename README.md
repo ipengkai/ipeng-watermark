@@ -21,7 +21,7 @@ npm i -S ipeng-watermark
 
 ``` js
 
-import IpengWatermark from "@ipeng-watermark"
+import IpengWatermark from "ipeng-watermark"
 
 export default {
   components:{
