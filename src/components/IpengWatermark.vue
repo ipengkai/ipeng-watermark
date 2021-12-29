@@ -1,12 +1,12 @@
 <template>
   <teleport :to='el' >
-    <div class="watermark-cover" id="ipengWatermarkCover" :style="{zIndex:zIndex}"></div>
+    <div class="watermark-cover" id="ipengWatermarkCover" ></div>
   </teleport>
 </template>
 
 <script>
 export default {
-  name: 'IpengWatermark',
+  name: 'ipeng-watermark',
   props: {
     el: {
       type: String,
@@ -101,7 +101,23 @@ export default {
     addCoverBg(){
       const cover = document.querySelector("#ipengWatermarkCover");
       const img = this.createImg();
-      cover.style.backgroundImage = `url(${img})`;
+
+      cover.setAttribute('style',`
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: transparent;
+        pointer-events: none;
+        background-repeat: repeat;
+        background-origin: center center;
+        background-image: url(${img});
+        Z-index: ${this.zIndex};
+      `)
+      
+      // cover.style.backgroundImage = `url(${img})`;
     }
   }
 }

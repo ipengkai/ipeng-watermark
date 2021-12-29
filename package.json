@@ -1,6 +1,6 @@
 {
   "name": "ipeng-watermark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "main":"./lib/ipeng-watermark.umd.min.js",
   "keywords": [
@@ -25,10 +25,6 @@
     "build:lib": "vue-cli-service build --target lib --name ipeng-watermark --dest lib ./src/index.js"
   },
   "peerDependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
-  },
-  "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
