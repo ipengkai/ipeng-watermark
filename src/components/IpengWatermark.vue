@@ -8,7 +8,12 @@
 export default {
   name: 'IpengWatermark',
   props: {
-    el: String,
+    el: {
+      type: String,
+      default(){
+        return 'body'
+      }
+    },
     txt:{
       type: String,
       default(){
