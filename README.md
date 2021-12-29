@@ -34,38 +34,38 @@ export default {
 ## Properties:
 
 #### el
-Type: String
-Default: 'body'
+Type: String<br>
+Default: 'body'<br>
 
 A selector, the watermark layer will be inserted into this element.
 
 #### txt
-Type: String
-Default: 'ipeng-watermark'
+Type: String<br>
+Default: 'ipeng-watermark'<br>
 
 Watermark's content.
 
 #### color
-Type: String
-Default: '#d9d9d9'
+Type: String<br>
+Default: '#d9d9d9'<br>
 
 Watermark's color.
 
 #### size
-Type: Number
-Default: 18
+Type: Number<br>
+Default: 18<br>
 Watermark's fontsize.
 
 #### opacity
-Type: Number
-Default: 0.7
-Range: 0~1
+Type: Number<br>
+Default: 0.7<br>
+Range: 0~1<br>
 
 Watermark's opacity.
 
 #### zIndex
-Type: Number
-Default: 0
+Type: Number<br>
+Default: 0<br>
 
 The level of watermark layer.
 
