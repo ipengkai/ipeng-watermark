@@ -1,6 +1,6 @@
 {
   "name": "ipeng-watermark",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "main":"./lib/ipeng-watermark.umd.js",
   "keywords": [
@@ -12,8 +12,7 @@
     "vue3水印插件"
   ],
   "files":[
-    "lib/*",
-    "src/*"
+    "lib/*"
   ],
   "bugs": {
     "url": "https://github.com/ipengkai/ipeng-watermark/issues"
@@ -22,7 +21,7 @@
       "type": "git",
       "url": "git+https://github.com/ipengkai/ipeng-watermark"
   },
-  "homepage": "https://github.com/ipengkai/ipeng-watermark",
+  "homepage": "https://github.com/ipengkai/ipeng-watermark/blob/main/README.md",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
