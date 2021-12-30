@@ -2,12 +2,12 @@
 <div class="test-box">
   <div @click="tabTest">test</div>
 </div>
-  <IpengWatermark el="body" txt="测试"/>
+  <IpengWatermark el="body" txt="测试" :xGap="100" :yGap="100"/>
 </template>
 
 <script>
-// import IpengWatermark from './components/IpengWatermark.vue'
-import IpengWatermark from "../lib/ipeng-watermark.umd.js"
+import IpengWatermark from './components/IpengWatermark.vue'
+// import IpengWatermark from "../lib/ipeng-watermark.umd.js"
 // console.log('222',IpengWatermark)
 export default {
   name: 'App',

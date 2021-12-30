@@ -33,49 +33,49 @@ export default {
 
 ## Properties:
 
-#### el
+### el
 Type: String<br>
 Default: 'body'<br>
 
 A selector, the watermark layer will be inserted into this element.
 
-#### txt
+### txt
 Type: String<br>
 Default: 'ipeng-watermark'<br>
 
 Watermark's content.
 
-#### color
+### color
 Type: String<br>
 Default: '#d9d9d9'<br>
 
 Watermark's color.
 
-#### size
+### size
 Type: Number<br>
 Default: 18<br>
 Watermark's fontsize.
 
-#### opacity
+### opacity
 Type: Number<br>
 Default: 0.7<br>
 Range: 0~1<br>
 
 Watermark's opacity.
 
-#### xGap
+### xGap
 Type: Number<br>
 Default: 60<br>
 
 Horizontal spacing between two watermarks
 
-#### yGap
+### yGap
 Type: Number<br>
 Default: 90<br>
 
 Vertical spacing between two watermarks
 
-#### zIndex
+### zIndex
 Type: Number<br>
 Default: 0<br>
 
