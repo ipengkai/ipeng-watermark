@@ -2,7 +2,7 @@
   "name": "ipeng-watermark",
   "version": "0.1.2",
   "private": false,
-  "main":"./lib/ipeng-watermark.umd.min.js",
+  "main":"./lib/ipeng-watermark.umd.js",
   "keywords": [
     "vue",
     "vue3",

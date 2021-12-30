@@ -44,6 +44,18 @@ export default {
         return 0;
       }
     },
+    xGap:{
+      type: Number,
+      default(){
+        return 60;
+      }
+    },
+    yGap:{
+      type: Number,
+      default(){
+        return 90;
+      }
+    }
     // rotate:{
     //   type: Number,
     //   default(){
@@ -63,7 +75,7 @@ export default {
   methods:{
     createImg(){
       const canvas = document.createElement('canvas');
-      const { size, txt, color, opacity, rotate } = this;
+      const { size, txt, color, opacity, rotate, xGap, yGap } = this;
 
       canvas.style.backgroundColor = 'transparent';
       const ctx = canvas.getContext('2d');
@@ -72,9 +84,9 @@ export default {
       ctx.webkitImageSmoothingEnabled = true;
       ctx.msImageSmoothingEnabled = true;
 
-      const h = size*6;
+      const h = size+yGap;
       const txtSize = ctx.measureText(txt);
-      const w = txtSize.width + 60;
+      const w = txtSize.width + xGap;
       canvas.width = w;
       canvas.height = h;
       // 绘制文本

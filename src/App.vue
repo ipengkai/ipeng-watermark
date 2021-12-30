@@ -7,8 +7,8 @@
 
 <script>
 // import IpengWatermark from './components/IpengWatermark.vue'
-import IpengWatermark from "../lib/ipeng-watermark.umd.min.js"
-console.log('222',IpengWatermark)
+import IpengWatermark from "../lib/ipeng-watermark.umd.js"
+// console.log('222',IpengWatermark)
 export default {
   name: 'App',
   components: {
