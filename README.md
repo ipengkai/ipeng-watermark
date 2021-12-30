@@ -3,6 +3,8 @@
 ## Introduction:
 A watermark component based on vue3
 
+[github]：<a href="https://github.com/ipengkai/ipeng-watermark" target="_blank"></a>
+
 ## Installation:
 ```
 npm i -S ipeng-watermark
