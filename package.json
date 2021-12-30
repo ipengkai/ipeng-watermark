@@ -11,13 +11,18 @@
     "水印",
     "vue3水印插件"
   ],
+  "files":[
+    "lib/*",
+    "src/*"
+  ],
   "bugs": {
     "url": "https://github.com/ipengkai/ipeng-watermark/issues"
   },
   "repository": {
       "type": "git",
-      "url": "git@https://github.com/ipengkai/ipeng-watermark"
+      "url": "git+https://github.com/ipengkai/ipeng-watermark"
   },
+  "homepage": "https://github.com/ipengkai/ipeng-watermark",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
