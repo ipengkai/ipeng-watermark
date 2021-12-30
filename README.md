@@ -64,13 +64,13 @@ Range: 0~1<br>
 Watermark's opacity.
 
 #### xGap
-Type: Nuber<br>
+Type: Number<br>
 Default: 60<br>
 
 Horizontal spacing between two watermarks
 
 #### yGap
-Type: Nuber<br>
+Type: Number<br>
 Default: 90<br>
 
 Vertical spacing between two watermarks
