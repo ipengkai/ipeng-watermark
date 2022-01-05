@@ -39,9 +39,8 @@ Default: 'body'<br>
 
 A selector, the watermark layer will be inserted into this element. 
 
-```
 Notice: This element must has a positioning property ( relative/absolute/fixed ), and the ipengWatermark component cannot be its child element!
-```
+
 ### txt
 Type: String<br>
 Default: 'ipeng-watermark'<br>
