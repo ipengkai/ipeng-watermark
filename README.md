@@ -9,6 +9,13 @@ npm i -S ipeng-watermark
 ```
 
 ##  Typical use:
+```css
+#box{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+```
 ``` html
 <template>
 ...
@@ -17,6 +24,7 @@ npm i -S ipeng-watermark
 <ipeng-watermark el="#box" txt="watermark"></ipeng-watermark>
 ...
 </template>
+
 ```
 
 ``` js
